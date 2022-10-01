@@ -18,7 +18,8 @@ Then, shall we began?
 
 ## Shortcut
 
-- [Taking over](#taking-over)
+- all
+  - [Taking over](#taking-over)
   - [Shortcut](#shortcut)
   - [Style](#style)
   - [IDE](#ide)
@@ -35,7 +36,7 @@ Then, shall we began?
 - Coding
   - JavaScript style: [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/) (check the rules section)
 
-[⬆️ Go to Top](#Shorcut)
+[⬆️ Go to Top](#shortcut)
 
 ## IDE
 
@@ -44,7 +45,7 @@ Then, shall we began?
   - `comment light`
   - `TODO tree`
 
-[⬆️ Go to Top](#Shorcut)
+[⬆️ Go to Top](#shortcut)
 
 ## Comment
 
@@ -53,7 +54,7 @@ Then, shall we began?
   - `FIXME:` the part of code to fix
   - `REF:` reference document, resource
 
-[⬆️ Go to Top](#Shorcut)
+[⬆️ Go to Top](#shortcut)
 
 ## Naming
 
@@ -65,7 +66,7 @@ Then, shall we began?
 - Component
   - Vue Official: <https://vuejs.org/style-guide/> (check section B)
 
-[⬆️ Go to Top](#Shorcut)
+[⬆️ Go to Top](#shortcut)
 
 ## Preference
 
@@ -97,7 +98,7 @@ Then, shall we began?
   - A component is about 300 ~ 500 lines, rely on CSS or some things like that.
   - Service(call BackEnd Api) separate to files in a same folder to manage them.
 
-[⬆️ Go to Top](#Shorcut)
+[⬆️ Go to Top](#shortcut)
 
 ---
 
