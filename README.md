@@ -18,7 +18,7 @@ Then, shall we began?
 
 ## Shortcut
 
-- all
+- All Items
   - [Taking over](#taking-over)
   - [Shortcut](#shortcut)
   - [Style](#style)
@@ -26,6 +26,7 @@ Then, shall we began?
   - [Comment](#comment)
   - [Naming](#naming)
   - [Preference](#preference)
+- License: [MIT](./LICENSE)
 
 ## Style
 
@@ -40,10 +41,18 @@ Then, shall we began?
 
 ## IDE
 
-- Front-End IDE: VScode
-- VScode plugin
-  - `comment light`
+- Here are my recommendation, you can use your preference as well.
+- Front-End IDE: **VScode**
+- VScode plugin:
   - `TODO tree`
+  - `comment light`
+  - `GitLens`
+  - `Git Graph`
+  - `Git History`
+  - `Gremlins tracker for Visual Studio Code`
+  - `DotENV`
+  - `EditorConfig for Visual Studio Code`
+  - `Vim` (Options)
 
 [⬆️ Go to Top](#shortcut)
 
@@ -102,9 +111,12 @@ Then, shall we began?
 
 ---
 
-If you have any question or suggestion, you can find contact information at **benben.me** website.
+If you have any question or suggestion, you can find contact information at **[benben.me](https://benben.me)** website.
 
 > Just feel free to contact me, I will reply as soon as possible!
 
 Happy Coding,
-Benben
+
+@2022 Benben
+
+license: [MIT](./LICENSE)
