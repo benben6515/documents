@@ -1,6 +1,6 @@
-# Taking over
+# Documents
 
-> ! This is a document for who taking over my projects or codes mostly.
+> ! This is a document for who taking over my projects and write some principles for myself. !
 > Maybe I just put in codes randomly and you saw it, no matter how, welcome as well.
 
 Hi, there!
@@ -19,14 +19,13 @@ Then, shall we began?
 ## Shortcut
 
 - All Items
-  - [Taking over](#taking-over)
-  - [Shortcut](#shortcut)
   - [Style](#style)
   - [IDE](#ide)
   - [Comment](#comment)
   - [Naming](#naming)
   - [Preference](#preference)
-- License: [MIT](./LICENSE)
+  - [Courses](#courses)
+  - [License](./LICENSE)
 
 ## Style
 
@@ -42,7 +41,7 @@ Then, shall we began?
 ## IDE
 
 - Here are my recommendation, you can use your preference as well.
-- Front-End IDE: **VScode**
+- Front-End IDE: [**VScode**](https://code.visualstudio.com/download)
 - VScode plugin:
   - `TODO tree`
   - `comment light`
@@ -62,6 +61,24 @@ Then, shall we began?
   - `TODO:` the part of code to do
   - `FIXME:` the part of code to fix
   - `REF:` reference document, resource
+
+<details>
+  <summary>
+  example
+  </summary>
+
+  ```typescript
+  // REF: https://www.typescriptlang.org/
+  class item {
+    constructor (private name: string) {}
+    getItemName: () => this.name
+    // FIXME: fix type
+    setItemName: (newName: any) => this.name = newName
+    // TODO: add new feature
+  }
+  ```
+
+</details>
 
 [⬆️ Go to Top](#shortcut)
 
@@ -90,12 +107,12 @@ Then, shall we began?
 - Vue
 
   - prefer **Composition Api** rather than Options Api
-  - often use with: Nust, Vuex(Pinia), VeeValidate
+  - often use with: Nuxt, Vuex(Pinia), VeeValidate
   - often css with: Tailwind, UnoCSS, SCSS
 
 - CSS
 
-  - prefer **Atomic CSS** like: Tailwind, Windi, UnoCSS ...
+  - prefer **Atomic CSS** like: Tailwind, Windi CSS, UnoCSS ...
   - SCSS/SASS is good as well, but you know naming CSS is a big mess problem.
 
 - Utils
@@ -109,6 +126,14 @@ Then, shall we began?
 
 [⬆️ Go to Top](#shortcut)
 
+## Courses
+
+For some people curiously what I learning from:
+
+- [Front-End resources(in Chinese)](https://hackmd.io/@benben6515/fe-resource)
+
+[⬆️ Go to Top](#shortcut)
+
 ---
 
 If you have any question or suggestion, you can find contact information at **[benben.me](https://benben.me)** website.
@@ -117,6 +142,8 @@ If you have any question or suggestion, you can find contact information at **[b
 
 Happy Coding,
 
-@2022 Benben
+## License
 
-license: [MIT](./LICENSE)
+Copyright (c) 2022 - present @Benben
+
+[MIT License](./LICENSE)
