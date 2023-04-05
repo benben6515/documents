@@ -40,8 +40,8 @@ Then, shall we began?
 
 ## IDE
 
-- Here are my recommendation, you can use your preference as well.
-- Front-End IDE: [**VScode**](https://code.visualstudio.com/download)
+- Here are my recommendation, still you can chose your preferences as well.
+- IDE: [**VScode**](https://code.visualstudio.com/download)
 - VScode plugin:
   - `TODO tree`
   - `comment light`
@@ -71,10 +71,14 @@ Then, shall we began?
   // REF: https://www.typescriptlang.org/
   class item {
     constructor (private name: string) {}
+
     getItemName: () => this.name
-    // FIXME: fix type
+
+    // FIXME: fix any type
     setItemName: (newName: any) => this.name = newName
+
     // TODO: add new feature
+    someThingNew: () => console.log('new stuff')
   }
   ```
 
@@ -98,25 +102,27 @@ Then, shall we began?
 
 > Just preference, depend on projects' needs as well.
 
-- React
+- React (Framework)
 
   - prefer **React hook** + function component over than class component + function component.
   - often use with: Next, Redux, Formik
   - often css with: Tailwind, Styled-component, Emotions
+  - often utils with: Vite, react-use
 
-- Vue
+- Vue (Framework)
 
   - prefer **Composition Api** rather than Options Api
   - often use with: Nuxt, Vuex(Pinia), VeeValidate
   - often css with: Tailwind, UnoCSS, SCSS
+  - often utils with: Vite, vue-use
 
 - CSS
 
   - prefer **Atomic CSS** like: Tailwind, Windi CSS, UnoCSS ...
-  - SCSS/SASS is good as well, but you know naming CSS is a big mess problem.
+  - SCSS/SASS are good as well, but you know naming CSS is a big problem.
 
 - Utils
-  - often use: axios, lodash
+  - often use: `axios`, `lodash`
   - package manage: prefer **pnpm > yarn > npm**
   - bundle tools: prefer **vite > parcel > webpack**
   - TypeScript maybe, depend on development timing.
@@ -128,7 +134,7 @@ Then, shall we began?
 
 ## Courses
 
-For some people curiously what I learning from:
+For some people curious about courses which I took:
 
 - [Front-End resources(in Chinese)](https://hackmd.io/@benben6515/fe-resource)
 
@@ -136,14 +142,14 @@ For some people curiously what I learning from:
 
 ---
 
-If you have any question or suggestion, you can find contact information at **[benben.me](https://benben.me)** website.
+If you have any questions or suggestions, you can find my contact information in **[benben.me](https://benben.me)** website.
 
-> Just feel free to contact me, I will reply as soon as possible!
+> Just feel free to AMA (ask me anything), I will reply as soon as possible!
 
 Happy Coding,
 
 ## License
 
-Copyright (c) 2022 - present @Benben
+Copyright (c) 2022 - present [@Benben](https://github.com/benben6515)
 
 [MIT License](./LICENSE)
