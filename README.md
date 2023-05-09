@@ -5,36 +5,43 @@
 
 Hi, there!
 
-I follow most style guides beneath and I suggest overview these guides as well if you are taking over my project or stuff.
+I follow most style guides beneath and I suggest to overview these guides as well if you are taking over my project or stuff.
 
-Some of them are interesting blog posts with use cases, no just boring rules line by line.
+Some of them are interesting blog posts with cases and scenario, no just boring rules line by line.
 
-Again, these all my personal chosen, if you have better solution then good for you and go for it.
-Don't tell me you just want dirty codes(Do you even hear brainf\*\*k before?).
+Again, these are all my personal preferences, if you have better solutions then good for you and go for it. Don't tell me you just want dirty codes(Do you even hear brainf\*\*k before?) so you don't want to follow any rules.
 
-Still, I study and research a lot so that I found these guides are useful for me.
+Still, I studied and researched a lot so that I found these guides are useful for me.
 
-Then, shall we began?
+Then, let's check out.
 
 ## Shortcut
 
-- All Items
-  - [Style](#style)
+- [Documents](#documents)
+  - [Shortcut](#shortcut)
+  - [In use](#in-use)
   - [IDE](#ide)
+  - [Style](#style)
   - [Comment](#comment)
   - [Naming](#naming)
   - [Preference](#preference)
   - [Courses](#courses)
-  - [License](./LICENSE)
+  - [License](#license)
 
-## Style
+## In use
 
-- !(Highly recommend) **Technical Writing**: [Technical Writing for Developers | CSS-Tricks - CSS-Tricks](https://css-tricks.com/technical-writing-for-developers/#top-of-site)
-- Writing
-  - Markdown style: [Markdown Lint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
-  - Chinese Writing style: [中文排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
-- Coding
-  - JavaScript style: [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/) (check the rules section)
+> something I am in use when I am coding.
+
+- Laptop: Apple macbook pro M2 14 / 10 cores CPU / 16 cores GPU / 512G / 32G
+- Screen: BenQ EW2880u
+- Screen bar: Esense LED 11-PRO100
+- Keyboards:
+  - Keychron Q4 / Cherry MX Speed Silver / 60% (Most using)
+  - Keychron K9 pro / Gateron Pro Red / 60% / low profile (When I go out)
+- Mouse: Logitech MX Master 3s
+- Terminal: [Warp](https://app.warp.dev/referral/VLL959)
+- VScode themes: [ever frost](https://github.com/sainnhe/everforest), [dracula soft](https://draculatheme.com/visual-studio-code)
+- Neovim: [AstroNvim](https://astronvim.com/)
 
 [⬆️ Go to Top](#shortcut)
 
@@ -55,12 +62,23 @@ Then, shall we began?
 
 [⬆️ Go to Top](#shortcut)
 
+## Style
+
+- !(Highly recommend) **Technical Writing**: [Technical Writing for Developers | CSS-Tricks - CSS-Tricks](https://css-tricks.com/technical-writing-for-developers/#top-of-site)
+- Writing
+  - Chinese Writing style: [中文排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
+  - Markdown style: [Markdown Lint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
+- Coding
+  - JavaScript style: [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/) (check the rules section)
+
+[⬆️ Go to Top](#shortcut)
+
 ## Comment
 
-- Describe
-  - `TODO:` the part of code to do
-  - `FIXME:` the part of code to fix
-  - `REF:` reference document, resource
+- Describable comment
+  - `TODO:` the part of code to do in the future
+  - `FIXME:` the part of code to fix in the future
+  - `REF:` reference documents, resources
 
 <details>
   <summary>
@@ -93,14 +111,16 @@ Then, shall we began?
   - Google docs: <https://google.github.io/styleguide/jsguide.html#naming>
 - CSS
   - BEM(`block__element--modify`)
-- Component
+- Components
   - Vue Official: <https://vuejs.org/style-guide/> (check section B)
+- Hooks, Composables
+  - useFeatureA, useFeatureB ...
 
 [⬆️ Go to Top](#shortcut)
 
 ## Preference
 
-> Just preference, depend on projects' needs as well.
+> Just preference, much depend on projects' needs.
 
 - React (Framework)
 
@@ -146,7 +166,7 @@ If you have any questions or suggestions, you can find my contact information in
 
 > Just feel free to AMA (ask me anything), I will reply as soon as possible!
 
-Happy Coding,
+Happy Coding ~
 
 ## License
 
