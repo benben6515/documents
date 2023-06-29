@@ -161,11 +161,11 @@ For some people curious about courses which I took:
 - VScode themes: [ever frost](https://github.com/sainnhe/everforest), [dracula soft](https://draculatheme.com/visual-studio-code)
 - Neovim: [AstroNvim](https://astronvim.com/)
 
-<img src="https://hackmd.io/_uploads/Bki07V1_h.png" alt="laptop" width="360" />
+<img src="./images/stickies.jpg" alt="laptop" width="360" />
 
 > And my lovely stickies. (pretty much my skill)
 
-<img src="https://hackmd.io/_uploads/ByfLv0qd2.jpg" alt="desk setup" width="560" />
+<img src="./images/desk-setup.jpg" alt="desk setup" width="560" />
 
 > I love what I'm doing.
 
