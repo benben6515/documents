@@ -165,7 +165,7 @@ For some people curious about courses which I took:
 
 > And my lovely stickies. (pretty much my skill)
 
-<img src="https://hackmd.io/_uploads/ByfLv0qd2.jpg" alt="desk setup" width="480" />
+<img src="https://hackmd.io/_uploads/ByfLv0qd2.jpg" alt="desk setup" width="560" />
 
 > I love what I'm doing.
 
