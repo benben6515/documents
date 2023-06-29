@@ -19,29 +19,14 @@ Then, let's check out.
 
 - [Documents](#documents)
   - [Shortcut](#shortcut)
-  - [In use](#in-use)
   - [IDE](#ide)
   - [Style](#style)
   - [Comment](#comment)
   - [Naming](#naming)
   - [Preference](#preference)
   - [Courses](#courses)
+  - [In use](#in-use)
   - [License](#license)
-
-## In use
-
-> something I am in use when I am coding.
-
-- Laptop: Apple macbook pro M2 14 / 10 cores CPU / 16 cores GPU / 512G / 32G
-- Screen: BenQ EW2880u
-- Screen bar: Esense LED 11-PRO100
-- Keyboards:
-  - Keychron Q4 / Cherry MX Speed Silver / 60% (Most using)
-  - Keychron K9 pro / Gateron Pro Red / 60% / low profile (When I go out)
-- Mouse: Logitech MX Master 3s
-- Terminal: [Warp](https://app.warp.dev/referral/VLL959)
-- VScode themes: [ever frost](https://github.com/sainnhe/everforest), [dracula soft](https://draculatheme.com/visual-studio-code)
-- Neovim: [AstroNvim](https://astronvim.com/)
 
 [⬆️ Go to Top](#shortcut)
 
@@ -69,7 +54,8 @@ Then, let's check out.
   - Chinese Writing style: [中文排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
   - Markdown style: [Markdown Lint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
 - Coding
-  - JavaScript style: [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/) (check the rules section)
+  - JavaScript style: prefer `standard`
+  - [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/) (check the rules section)
 
 [⬆️ Go to Top](#shortcut)
 
@@ -159,6 +145,29 @@ For some people curious about courses which I took:
 - [Front-End resources(in Chinese)](https://hackmd.io/@benben6515/fe-resource)
 
 [⬆️ Go to Top](#shortcut)
+
+## In use
+
+> something I am in use when I am coding.
+
+- Laptop: Apple macbook pro M2 14 / 10 cores CPU / 16 cores GPU / 512G / 32G
+- Screen: BenQ EW2880u
+- Screen bar: Esense LED 11-PRO100
+- Keyboards:
+  - Keychron Q4 / Cherry MX Speed Silver(Self-Lubricating) / 60% (Most using)
+  - Keychron K9 pro / Gateron Pro Red / 60% / low profile (When I go out)
+- Mouse: Logitech MX Master 3s
+- Terminal: [Warp](https://app.warp.dev/referral/VLL959)
+- VScode themes: [ever frost](https://github.com/sainnhe/everforest), [dracula soft](https://draculatheme.com/visual-studio-code)
+- Neovim: [AstroNvim](https://astronvim.com/)
+
+<img src="https://hackmd.io/_uploads/Bki07V1_h.png" alt="laptop" width="360" />
+
+> And my lovely stickies. (pretty much my skill)
+
+<img src="https://hackmd.io/_uploads/ByfLv0qd2.jpg" alt="desk setup" width="480" />
+
+> I love what I'm doing.
 
 ---
 
