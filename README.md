@@ -55,7 +55,7 @@ Then, let's check out.
   - Markdown style: [Markdown Lint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
 - Coding
   - JavaScript style: prefer `standard`
-  - [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/) (check the rules section)
+  - [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/)
 
 [⬆️ Go to Top](#shortcut)
 
@@ -151,15 +151,24 @@ For some people curious about courses which I took:
 > something I am in use when I am coding.
 
 - Laptop: Apple macbook pro M2 14 / 10 cores CPU / 16 cores GPU / 512G / 32G
-- Screen: BenQ EW2880u
+- Screen: BenQ EW2880u(28 inch) + BenQ GW2475H(24 inch)
 - Screen bar: Esense LED 11-PRO100
 - Keyboards:
-  - Keychron Q4 / Cherry MX Speed Silver(Self-Lubricating) / 60% (Most using)
-  - Keychron K9 pro / Gateron Pro Red / 60% / low profile (When I go out)
+  - Keychron Q4
+    - Switch: Cherry MX Speed Silver(Self-Lubricating)
+    - Layout: 60%
+    - State: Most using
+  - Keychron K9 pro
+    - Switch: Gateron low-profile MX 2.0 Red
+    - Layout: 60%, low-profile
+    - State: When I go out using
 - Mouse: Logitech MX Master 3s
 - Terminal: [Warp](https://app.warp.dev/referral/VLL959)
-- VScode themes: [ever frost](https://github.com/sainnhe/everforest), [dracula soft](https://draculatheme.com/visual-studio-code)
 - Neovim: [AstroNvim](https://astronvim.com/)
+- Love themes(VScode):
+  1. [ever frost](https://github.com/sainnhe/everforest)
+  2. [sonokai](https://github.com/sainnhe/sonokai)
+  3. [dracula soft](https://draculatheme.com/visual-studio-code)
 
 <img src="./images/stickies.jpg" alt="laptop" width="360" />
 
