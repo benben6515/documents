@@ -32,7 +32,8 @@ Then, let's check out.
 
 ## IDE
 
-- Here are my recommendation, still you can chose your preferences as well.
+- I am currently using: **NeoVim** + **Warp** terminal
+- Here are my recommendation as a new developer, still you can chose your preferences as well.
 - IDE: [**VScode**](https://code.visualstudio.com/download)
 - VScode plugin:
   - `TODO tree`
@@ -71,20 +72,20 @@ Then, let's check out.
   example
   </summary>
 
-  ```typescript
-  // REF: https://www.typescriptlang.org/
-  class item {
-    constructor (private name: string) {}
+```typescript
+// REF: https://www.typescriptlang.org/
+class item {
+  constructor (private name: string) {}
 
-    getItemName: () => this.name
+  getItemName: () => this.name
 
-    // FIXME: fix any type
-    setItemName: (newName: any) => this.name = newName
+  // FIXME: fix any type
+  setItemName: (newName: any) => this.name = newName
 
-    // TODO: add new feature
-    someThingNew: () => console.log('new stuff')
-  }
-  ```
+  // TODO: add new feature
+  someThingNew: () => console.log('new stuff')
+}
+```
 
 </details>
 
@@ -108,14 +109,14 @@ Then, let's check out.
 
 > Just preference, much depend on projects' needs.
 
-- React (Framework)
+- React/Next (Framework)
 
   - prefer **React hook** + function component over than class component + function component.
   - often use with: Next, Redux, Formik
   - often css with: Tailwind, Styled-component, Emotions
   - often utils with: Vite, react-use
 
-- Vue (Framework)
+- Vue/Nuxt (Framework)
 
   - prefer **Composition Api** rather than Options Api
   - often use with: Nuxt, Vuex(Pinia), VeeValidate
@@ -128,12 +129,13 @@ Then, let's check out.
   - SCSS/SASS are good as well, but you know naming CSS is a big problem.
 
 - Utils
-  - often use: `axios`, `lodash`
+  - often use: `axios`, `lodash`, `tailwind`
   - package manage: prefer **pnpm > yarn > npm**
   - bundle tools: prefer **vite > parcel > webpack**
   - TypeScript maybe, depend on development timing.
   - Testing maybe, depend on development timing but prefer Vitest.
   - A component is about 300 ~ 500 lines, rely on CSS or some things like that.
+  - Restful Api design.
   - Service(call BackEnd Api) separate to files in a same folder to manage them.
 
 [⬆️ Go to Top](#shortcut)
@@ -148,10 +150,10 @@ For some people curious about courses which I took:
 
 ## In use
 
-> something I am in use when I am coding.
+> Somethings that I am in use when I am coding.
 
 - Laptop: Apple macbook pro M2 14 / 10 cores CPU / 16 cores GPU / 512G / 32G
-- Screen: BenQ EW2880u(28 inch) + BenQ GW2475H(24 inch)
+- Screen: Apple Display (27 inch) + BenQ EW2880u(28 inch)
 - Screen bar: Esense LED 11-PRO100
 - Keyboards:
   - Keychron Q4
@@ -164,7 +166,7 @@ For some people curious about courses which I took:
     - State: When I go out using
 - Mouse: Logitech MX Master 3s
 - Terminal: [Warp](https://app.warp.dev/referral/VLL959)
-- Neovim: [AstroNvim](https://astronvim.com/)
+- Neovim: [Lazyvim](https://www.lazyvim.org/)
 - Love themes(VScode):
   1. [ever frost](https://github.com/sainnhe/everforest)
   2. [sonokai](https://github.com/sainnhe/sonokai)
