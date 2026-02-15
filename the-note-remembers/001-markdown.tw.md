@@ -1,94 +1,95 @@
-# Markdown Syntax Reference and Template
+Markdown 語法大全，範例模板
 
-`Only includes commonly used syntax`
+=======
+`僅收入常用語法`
 
-## Table of Contents
+## 目錄
 
-- Headings
-- Body Text
-- Lists
-- Highlights
-- Blocks
-- Code
-- Horizontal Rules
-- Hyperlinks
-- Images
-- Tables
+- 標題
+- 內文
+- 清單
+- 標註
+- 區塊
+- 程式碼
+- 分隔線
+- 超連結
+- 圖片
+- 表格
 
-## Headings
+## 標題
 
 `H1 ~ H6`
 
-### Syntax
+### 語法
 
 ```
-# H1 Main Heading
-## H2 Heading
-### H3 Subheading
-#### H4 Small Heading
-##### H5 Small Heading
-###### H6 Small Heading
+# H1 大標題
+## H2 標題
+### H3 子標題
+#### H4 小標題
+##### H5 小標題
+###### H6 小標題
 ```
 
-### Rendered Output
+### 標體 - 渲染效果
 
 **↓↓↓**
 
 ---
 
-# H1 Main Heading
+# H1 大標題
 
-## H2 Heading
+## H2 標題
 
-### H3 Subheading
+### H3 子標題
 
-#### H4 Small Heading
+#### H4 小標題
 
-##### H5 Small Heading
+##### H5 小標題
 
-###### H6 Small Heading
+###### H6 小標題
 
 ---
 
 **↑↑↑**
 
-### Alternative Heading Style
+### 另外一種標題寫法
 
 ```
-H1 Main Heading
-=====
+H1 大標題
+======
 
-H2 Heading
+H2 標題
 ------
 ```
 
-### Rendered Output
+### 標體 - 渲染效果
 
 **↓↓↓**
 
 ---
 
-# H1 Main Heading
+# H1 大標題
 
-## H2 Heading
+## H2 標題
 
 ---
 
 **↑↑↑**
 
-## Body Text
+## 內文
 
-`Article content`
+`文章內容`
 
-### Syntax
+### 語法
 
-- Text : Plain text, no symbols added
-- Bold : Bold text, use two `+`, `-`, `*` symbols
-- Italic : Italic text, use one `+`, `-`, `*` symbol
-- Underline : Underline text, use HTML `<u>` tag
-- Delete : Strikethrough text, use two `~` symbols
-- TextWrap : Text line break, needs two newlines, otherwise appears as space
-- \#1\#2\#3 : Hash character needs backslash before it, otherwise won't render
+- Text : 一般文字，不添加任何符號
+- Bold : 粗體，使用兩個 `+`、`-`、`*` 符號
+- Italic : 斜體 ，使用一個 `+`、`-`、`*` 符號
+- Underline : 下劃線，使用 HTML `<u>` 標籤
+- Delete : 刪除線，使用兩個 `~` 符號
+- TextWrap : 文字換行，需使用兩次，否則會以空格形式呈現
+- \#1\#2\#3 : #字符號前面需添加倒斜線，否則無法渲染
 
 ```
 Text **Bold** *Italic* <u>underline</u> ~~delete~~
@@ -104,7 +105,7 @@ Text __Bold__ _Italic_ <u>underline</u> ~~delete~~
 \#1\#2\#3
 ```
 
-### Rendered Output
+### 內文 - 渲染效果
 
 **↓↓↓**
 
@@ -125,17 +126,17 @@ Text **Bold** _Italic_ <u>underline</u> ~~delete~~
 
 **↑↑↑**
 
-## Lists
+## 清單
 
-`Item lists, task lists`
+`項目列表、任務列表`
 
-### Syntax
+### 語法
 
-- Item : Bullet points can use `+`, `-`, `*`
-- Number : Numbered items start with `number.`, actual number doesn't affect rendering
-- CheckBox : Task list, in addition to Item symbol, use `[ ]` symbol
-  - `+ [ ]` : Renders as unchecked
-  - `+ [X]` : Renders as checked
+- Item : 項目符號使用 `+`、`-`、`*` 皆可
+- Number : 數字項目使用 `數字.` 開頭，實際數字不影響渲染結果
+- CheckBox : 任務清單，前方除 Item 符號以外，使用 `[ ]` 符號
+  - `+ [ ]` : 渲染未打勾
+  - `+ [X]` : 渲染為打勾
 
 ```
 + Item1
@@ -153,7 +154,7 @@ Text **Bold** _Italic_ <u>underline</u> ~~delete~~
 * [ ] To-Do
 ```
 
-### Rendered Output
+### 清單 - 渲染效果
 
 **↓↓↓**
 
@@ -182,19 +183,19 @@ Text **Bold** _Italic_ <u>underline</u> ~~delete~~
 
 **↑↑↑**
 
-## Highlights
+## 標註
 
 `Highlight`
 
-### Syntax
+### 語法
 
-- Highlight : Use `` symbol
+- Highlight : 使用 `` 符號
 
 ```
 Text `Highlight` Remark
 ```
 
-### Rendered Output
+### 標註 - 渲染效果
 
 **↓↓↓**
 
@@ -206,17 +207,17 @@ Text `Highlight` Remark
 
 **↑↑↑**
 
-## Blocks
+## 區塊
 
-### Syntax
+### 語法
 
-- Block : Text preceded by four spaces
+- Block : 文字前使用四個空格
 
 ```
     Text Block
 ```
 
-### Rendered Output
+### 區塊 - 渲染效果
 
 **↓↓↓**
 
@@ -228,22 +229,22 @@ Text `Highlight` Remark
 
 **↑↑↑**
 
-## Code
+## 程式碼
 
-### Syntax
+### 語法
 
-- Text : Plain text description, if content is too long, use code block
-  - `Avoids line break formatting issues with plain text`
-- java : Block syntax type, use three \` symbols, followed by programming language name
-  - `Code syntax highlighting depends on software support`
-- diff : Similar to git version comparison
-  - `+` : Green represents addition
-  - `-` : Red represents deletion
+- Text : 一般的文字說明，若內容字數太長，使用程式碼區塊
+  - `避免一般文字換行排版的困擾`
+- java : 區塊的語法類型，使用三個 \` 符號，後方加上程式語言名稱
+  - `程式碼語法高亮取決於軟體的支援`
+- diff : 類似於 git 版本比對功能
+  - `+` : 綠色代表新增
+  - `-` : 紅色代表刪除
 
 <pre>
 <code>
 ```
-Text - Text Description
+Text - 文字說明
 ```
 
 ```java
@@ -258,14 +259,14 @@ System.out.println("Hello Word");
 </code>
 </pre>
 
-### Rendered Output
+### 程式碼 - 渲染效果
 
 **↓↓↓**
 
 ---
 
 ```
-Text - Text Description
+Text - 文字說明
 ```
 
 ```java
@@ -282,11 +283,11 @@ System.out.println("Hello Word");
 
 **↑↑↑**
 
-## Horizontal Rules
+## 分隔線
 
-### Syntax
+### 語法
 
-- `---` : Use `*` or `-` symbols, must be more than three
+- `---` : 使用 `*` 或 `-` 符號，數量要大於 三個
 
 ```
 --
@@ -296,7 +297,7 @@ System.out.println("Hello Word");
 ***
 ```
 
-### Rendered Output
+### 分隔線 - 渲染效果
 
 **↓↓↓**
 
@@ -308,15 +309,15 @@ System.out.println("Hello Word");
 
 **↑↑↑**
 
-## Hyperlinks
+## 超連結
 
 `url`
 
-### Syntax
+### 語法
 
-- Gitlab : Use `<>` symbol to render URL as hyperlink
-- Blogger : Use `[]` and `()` to turn text into hyperlink with specified URL
-- YouTube : Another way to turn text into hyperlink, manages URLs uniformly
+- Gitlab : 使用 `<>`符號，將網址渲染成超連結
+- Blogger : 使用 `[]` 與 `()`，將文字變成指定網址的超連結標籤
+- YouTube : 另一種將文字變成指定網址的超連結方法，統一管理連結的網址
 
 ```
 ### Gitlab
@@ -330,7 +331,7 @@ System.out.println("Hello Word");
 
 ```
 
-### Rendered Output
+### 超連結 - 渲染效果
 
 **↓↓↓**
 
@@ -350,9 +351,9 @@ System.out.println("Hello Word");
 
 **↑↑↑**
 
-## Images
+## 圖片
 
-### Syntax
+### 語法
 
 ```
 
@@ -360,7 +361,7 @@ System.out.println("Hello Word");
 
 ```
 
-### Rendered Output
+### 圖片 - 渲染效果
 
 **↓↓↓**
 
@@ -372,16 +373,16 @@ System.out.println("Hello Word");
 
 **↑↑↑**
 
-## Tables
+## 表格
 
-### Syntax
+### 語法
 
-- Table - Align : Table alignment, left, right, center
-- Table - Text : Using text symbols in tables
-- Table - Html : Using HTML table tags in Markdown
-- Table - Span : Using HTML tags to merge table cells
-- Table - Mix : Mixed use of Markdown format and HTML tags
-- Table - Item : Using HTML tags to display item lists in tables
+- Table - Align : 表格對齊方式，置左、置右、置中
+- Table - Text : 表格中使用文字符號
+- Table - Html : 在 Markdown 中，使用 Html 表格標籤
+- Table - Span : 使用 Html 標籤，合併表格欄位
+- Table - Mix : 混合使用 Markdown 格式與 Html 標籤
+- Table - Item : 使用 Html 標籤，在表格中呈現項目列表
 
 ```
 ### Table - Align
@@ -509,7 +510,7 @@ one | two | three
 </table>
 ```
 
-### Rendered Output
+### 表格 - 渲染效果
 
 **↓↓↓**
 

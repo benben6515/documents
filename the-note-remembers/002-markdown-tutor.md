@@ -1,172 +1,172 @@
-# Markdown 快速入門與基本語法
+# Markdown Quick Start and Basic Syntax
 
-`輕量級標記式語言，易讀易寫的純文字格式`
+`Lightweight markup language, easy-to-read and easy-to-write plain text format`
 
-Markdown 格式，在同一種標籤下可以有多種符號表示，
-這裡不介紹每一種標籤符號的全部用法。
+Markdown format can use multiple symbols to represent the same tag.
+This guide doesn't introduce all uses of each tag symbol.
 
-僅整合平時撰寫文檔、筆記、教程時，固定使用的格式，並且提供語法範例。
+It only compiles the formats commonly used when writing documentation, notes, and tutorials, and provides syntax examples.
 
-## 目錄
+## Table of Contents
 
-- 準備軟體
-- 常用語法
-- 文檔格式
+- Prepare Software
+- Common Syntax
+- Document Format
 
-## 準備軟體
+## Prepare Software
 
-- 文本編輯器
-- Markdown 檢視器
+- Text Editor
+- Markdown Viewer
 
-### 文本編輯器
+### Text Editor
 
-`記事本、Notpad++、Sublime Text、VSCode、Typora、Vim ...etc`
+`Notepad, Notepad++, Sublime Text, VSCode, Typora, Vim, etc.`
 
 ![text-editor](assets/002/text-editor.png)
 
-任一可編輯純文字的文本編輯器皆可，後續會介紹常用的 Markdown 編輯軟體
+Any plain text editor that can edit text works. Common Markdown editors will be introduced later.
 
-**創建 `.md` 或 `.markdown` 副檔名檔案，即可開始使用 Markdown 語法撰寫文件**
+**Create files with `.md` or `.markdown` extension to start writing documents using Markdown syntax**
 
-### Markdown 檢視器
+### Markdown Viewer
 
-`Chrome Extension : Markdown Viewer`
+`Chrome Extension: Markdown Viewer`
 
-**Chrome 商店，搜尋 markdown viewer**
+**Search for markdown viewer in Chrome Store**
 
 ![chrome-store](assets/002/chrome-store.png)
 
-**安裝 Markdown Viewer 插件**
+**Install Markdown Viewer plugin**
 
 ![markdown-viewer](assets/002/markdown-viewer.png)
 
-**擴充功能設定**
+**Extension Settings**
 
 ![extension-setting](assets/002/extension-setting.png)
 
-**允許存取本地端的檔案**
+**Allow access to local files**
 
 ![allow-permission](assets/002/allow-permission.png)
 
-**將`.md` 或 `.markdown` 檔案，拖放進 Chrome 瀏覽器中**
+**Drag and drop `.md` or `.markdown` files into Chrome browser**
 
 ![markdown-preview](assets/002/markdown-preview.png)
 
-## 常用語法
+## Common Syntax
 
-`平時撰寫文檔、筆記、教程時，固定使用的格式範例`
+`Format examples commonly used when writing documentation, notes, and tutorials`
 
-以下為 [Markdown 語法範例](001.markdown-template.md) 精簡內容
+Below is a simplified content of [Markdown Syntax Examples](001.markdown-template.md)
 
-- 標題
-- 內文
-- 清單
-- 標註
-- 區塊
-- 程式碼
-- 分隔線
-- 超連結
-- 圖片
-- 表格
+- Headings
+- Body Text
+- Lists
+- Highlights
+- Blocks
+- Code
+- Horizontal Rules
+- Hyperlinks
+- Images
+- Tables
 
-### 標題
+### Headings
 
 `H1 ~ H3`
 
-**H1 - 大標題**
+**H1 - Main Heading**
 
-使用 `=` 符號，常駐數量 `6` 個，通常一份文檔只會有一個 H1 大標題
+Use `=` symbol, typically with `6` occurrences. Usually a document will have only one H1 main heading.
 
-並且會與檔名相同或者是使用檔名的完整名稱
+It should be the same as the filename or use the full filename.
 
 ```markdown
-# H1 大標題
+# H1 Main Heading
 ```
 
-**H2 - 標題**
+**H2 - Heading**
 
-使用 `-` 符號，常駐數量 `6` 個 ，
-通常文檔會常駐開頭「目錄」與結尾「參考資料」兩個 H2 標題。
+Use `-` symbol, typically with `6` occurrences.
+Usually documents will have two permanent H2 headings at the beginning for "Table of Contents" and at the end for "References".
 
-其他的 H2 標題，則依據目錄列表而定
+Other H2 headings are determined by the table of contents list.
 
 ```markdown
-## H2 標題
+## H2 Heading
 ```
 
-**H3 - 子標題**
+**H3 - Subheading**
 
-使用三個 `#` 符號，通常使用在 H2 標題的下一階層中，
-不會單獨存在於其他階層，如: 不會單獨的在 H1 大標題之下。
+Use three `#` symbols. Usually used in the level below H2 headings,
+and won't exist alone in other levels, such as: won't exist alone under H1 main heading.
 
 ```markdown
-### H3 子標題
+### H3 Subheading
 ```
 
-**H4 - 小標題**
+**H4 - Small Heading**
 
-`H4 以下的小標題不使用`
+`H4 and smaller headings are not used`
 
-除文字大小已經與內文差不多以外，
-`#` 符號頻繁出現，也使得純文本的情況下不好辨認。
+In addition to the text size being similar to body text,
+frequent use of `#` symbols makes it hard to identify in plain text.
 
-### 內文
+### Body Text
 
-`僅使用一般文字、粗體、斜體、刪除線`
+`Only use plain text, bold, italic, strikethrough`
 
-**一般文字**
+**Plain Text**
 
-通常只注意換行的段落是否恰當，若文字太多的情況下，
-會使用區塊或程式碼符號標示。
+Usually pay attention to whether paragraph breaks are appropriate. If there's too much text,
+blocks or code symbols will be used for marking.
 
 ```markdown
-### H3 子標題
+### H3 Subheading
 
-內文
+Body text
 ```
 
-**粗體**
+**Bold**
 
-標題部分提到 H4 以下不使用，但若仍有下一階層分段的需求，
-通常會使用粗體文字取代。
+It was mentioned earlier that H4 and below are not used, but if there's still a need for next-level segmentation,
+bold text is usually used instead.
 
-因此，一份文檔通常除了 H1 大標題以外，只會有三個階層 :
+Therefore, a document usually has only three levels besides the H1 main heading:
 
-- H2 標題
-- H3 子標題
-- 粗體 (小標題)
+- H2 Heading
+- H3 Subheading
+- Bold (Small Heading)
 
-`若超出此階層內容，會再重新安排文檔格式，使之不超出三個階層。`
+`If content exceeds these levels, the document format will be rearranged to not exceed three levels.`
 
 ```markdown
-### H3 子標題
+### H3 Subheading
 
 **01**
 
-內文
+Body text
 ```
 
-**內文中的粗體、斜體、刪除線**
+**Bold, Italic, Strikethrough in Body Text**
 
-撰寫文檔內文時，視情況使用粗體、斜體、刪除線，原則上還是盡量不使用到 HTML 語法
+When writing document body text, use bold, italic, and strikethrough as appropriate. In principle, try not to use HTML syntax.
 
-例如: 底線 `<u>` 或者是 `<font>` 更改文字樣式
+For example: underline `<u>` or `<font>` to change text style.
 
-避免造成純文字格式閱讀時的困難
+This avoids difficulties when reading plain text format.
 
 ```markdown
-內文，**粗體**，_斜體_，~~刪除線~~
+Body text, **bold**, _italic_, ~~strikethrough~~
 ```
 
-### 清單
+### Lists
 
-`三種型態皆使用，但項目符號僅使用 + 號`
+`All three types are used, but bullet points only use + symbol`
 
-**項目**
+**Bullet Points**
 
-符號僅使用 `+` 符號，縮排階層**最多三層**
+Only use `+` symbol for bullets, indentation levels **maximum three levels**.
 
-最基本的應用，就是每個文檔的目錄
+The most basic application is the table of contents in each document.
 
 ```markdown
 - Item1
@@ -178,11 +178,11 @@ Markdown 格式，在同一種標籤下可以有多種符號表示，
 - Item3
 ```
 
-**任務清單**
+**Task Lists**
 
-符號僅使用 `+` 符號，縮排階層**最多兩層**
+Only use `+` symbol for bullets, indentation levels **maximum two levels**.
 
-使用在待辦清單的筆記或文檔上
+Used for to-do lists in notes or documents.
 
 ```markdown
 - [x] To-Do1
@@ -193,15 +193,15 @@ Markdown 格式，在同一種標籤下可以有多種符號表示，
 - [ ] To-Do3
 ```
 
-**數字**
+**Numbered Lists**
 
-使用機率不高，清單項目通常優先以 `+` 為主，
-有特殊情況需表明順序時，才會使用，縮排**最多一層**。
+Low usage probability. List items usually prioritize `+` as bullets.
+Only used when there's a special need to indicate sequence, indentation **maximum one level**.
 
-雖然文本的數字不影響渲染結果，但在純文本的情況下，
-仍維持順序排列，避免閱讀純文本時有落差。
+Although text numbers don't affect rendering results, in plain text,
+sequence is still maintained to avoid gaps when reading plain text.
 
-有時會與項目符號 `+` 混合使用。
+Sometimes mixed with bullet point `+`.
 
 ```markdown
 1. Item1
@@ -217,33 +217,33 @@ Markdown 格式，在同一種標籤下可以有多種符號表示，
 - Item3
 ```
 
-### 標註
+### Highlights
 
-`補充說明與重點高亮`
+`Supplementary explanations and highlighting key points`
 
-**標題補充**
+**Heading Supplement**
 
-通常使用在 H1 大標題 、H2 標題、H3 子標題，下方補充說明
+Usually used below H1 main heading, H2 heading, H3 subheading for supplementary explanations.
 
-可以是簡介、大綱、副標題，用於幫助讀者更快瞭解章節內容
+Can be introduction, outline, subtitle, used to help readers understand chapter content faster.
 
 ```markdown
-# H1 大標題
+# H1 Main Heading
 
-`H1 標題-副標題`
+`H1 Heading - Subtitle`
 
-## H2 標題
+## H2 Heading
 
-`H2 標題-大綱`
+`H2 Heading - Outline`
 
-### H3 子標題
+### H3 Subheading
 
-`H3 子標題-工作流程`
+`H3 Subheading - Workflow`
 ```
 
-**清單補充**
+**List Supplement**
 
-使用在清單列表的後方，補充說明該項目其他的資訊內容
+Used after list items to supplement other information for that item.
 
 ```markdown
 - item `2020-10`
@@ -251,42 +251,42 @@ Markdown 格式，在同一種標籤下可以有多種符號表示，
   - item `10/25 done`
 ```
 
-**內文標註**
+**Body Text Highlight**
 
-標註內文中，要特殊注意的文字
+Highlight text within body text that needs special attention.
 
 ```markdown
-符號僅使用`+` 符號，縮排階層最多三層
+Only use `+` symbol for bullets, indentation levels maximum three levels
 ```
 
-### 區塊
+### Blocks
 
-`重點文字標示`
+`Highlighting important text`
 
-區塊文字類似於程式碼區塊，通常用於標示較短的文字描述，
-由於，純文字顯示下為四個空格，不太容易辨認。
+Block text is similar to code blocks, usually used to mark shorter text descriptions.
+Since it displays as four spaces in plain text, it's not easy to identify.
 
-若文字內容較長，仍使用程式碼區塊符號
+If text content is longer, code block symbols are still used.
 
 ```markdown
     Text Block
 ```
 
-### 程式碼
+### Code
 
-`程式語法高亮`
+`Code syntax highlighting`
 
-程式語法高亮，大量使用在技術教程、開發文件、程式筆記...等文檔上
+Code syntax highlighting is heavily used in technical tutorials, development documentation, programming notes, etc.
 
-除了常見的程式語言還會使用 `diff` 比對版本差異功能
+In addition to common programming languages, `diff` for version comparison is also used.
 
-若說明的文字太多，也會使用程式碼區塊，前方不加程式語言名稱，
-當作一般文字使用，可以避免一般文字的換行問題。
+If there's too much explanatory text, code blocks are also used without programming language name,
+used as plain text, which can avoid line break issues with plain text.
 
 <pre>
 <code>
 ```
-Text - 文字說明
+Text - Text Description
 ```
 
 ```java
@@ -301,33 +301,33 @@ System.out.println("Hello Word");
 </code>
 </pre>
 
-### 分隔線
+### Horizontal Rules
 
-`段落章節分隔`
+`Section separation`
 
-分隔線僅使用 `-` 符號，且數量為三個，僅滿足最小觸發渲染條件。
+Horizontal rules only use `-` symbol, with a quantity of three, meeting only the minimum trigger condition.
 
-可以避免多餘的文字符號佔用電腦空間
+This avoids using extra text symbols that take up computer space.
 
 ```markdown
 ---
 ```
 
-### 超連結
+### Hyperlinks
 
-`參考資料與文檔索引`
+`References and document indexing`
 
-超連結的寫法有三種，通常僅會使用 `<url>` 與 `[title](url)` 此兩種方法
+There are three ways to write hyperlinks. Usually only `<url>` and `[title](url)` are used.
 
-**參考資料**
+**References**
 
-文檔通常會常駐「目錄」與「參考資料」，
+Documents usually have permanent "Table of Contents" and "References".
 
-「目錄」內容使用**清單**列表呈現，
-「參考資料」則使用 `H3 子標題` + `<url>` 呈現資料來源
+"Table of Contents" content is presented using **lists**,
+"References" uses `H3 Subheading` + `<url>` to present data sources.
 
 ```markdown
-## 參考資料
+## References
 
 ### Gitlab
 
@@ -342,15 +342,15 @@ System.out.println("Hello Word");
 <https://www.youtube.com/user/rhxs020>
 ```
 
-**文檔索引**
+**Document Indexing**
 
-程式專案中，通常都會建立一個連接所有文檔的索引目錄，
+In code projects, an index directory linking all documents is usually established.
 
-使用 `[title](url)` 連接所有開發文件，
-用於快速尋找特定的開發文件。
+Use `[title](url)` to link all development documents,
+for quick access to specific development files.
 
 ```markdown
-# 帳本 , Index
+# Account Book, Index
 
 `Account Book`
 
@@ -368,46 +368,46 @@ System.out.println("Hello Word");
 
 ## App
 
-### 功能需求
+### Feature Requirements
 
 [001-1.account-book-feat](001-1.account-book-feat.md)
 
-### 基礎設施層
+### Infrastructure Layer
 
 - [002-1.infra-sa](002-1.infra-sa.md)
 - [002-2.infra-spec](002-2.infra-spec.md)
 
-### 領域層
+### Domain Layer
 
 - [003-1.domain-sa](003-1.domain-sa.md)
 - [003-2.domain-spec](003-2.domain-spec.md)
 
-### 應用層
+### Application Layer
 
 - [004-1.application-sa-ux](004-1.application-sa-ux.md)
 - [004-2.application-spec](004-2.application-spec.md)
 
-### 使用者介面層
+### Presentation Layer
 
 - [005-1.view-sa-ui](005-1.view-sa-ui.md)
 - [005-2.view-spec](005-2.view-spec.md)
 
-### 關於專案
+### About Project
 
 [README](README.md)
 ```
 
-**上述是一個 iOS App 開發的專案文件索引，
-每個文件前方都會以一個三位數的編號，
-這部分後續的文件教程會再詳細說明。**
+**The above is an iOS App development project document index.
+Each document is prefixed with a three-digit number,
+which will be explained in detail in subsequent document tutorials.**
 
-### 圖片
+### Images
 
-Markdown 圖片使用 `![title](url)` 格式，
-url 超連結的路徑為要顯示的圖片，
+Markdown images use `![title](url)` format,
+where the url hyperlink path is the image to be displayed.
 
-通常使用相對路徑，在文檔的同級目錄底下 `assets/` 資料夾加上**編號**，
-作為圖片來源的資料夾位置。
+Relative paths are usually used, creating an `assets/` folder with **numbering** in the same directory as the document,
+as the image source folder location.
 
 ```markdown
 ![markdown-viewer](assets/002/markdown-viewer.png)
@@ -415,14 +415,14 @@ url 超連結的路徑為要顯示的圖片，
 
 ![image-position](assets/002/image-position.png)
 
-**圖片的部分，除常見的 png、jpg 外，通常會建議使用 svg 格式**
+**For images, besides common png and jpg, svg format is usually recommended**
 
-**在加入版本控制時，檔案會比較小，也易於版控比對，
-這部分後續會有詳細教程介紹。**
+**When adding to version control, files will be smaller and easier for version control comparison.
+This will be covered in detail in subsequent tutorials.**
 
-### 表格
+### Tables
 
-只使用最**簡單**的 Markdown 表格，**置左對齊**
+Only use the **simplest** Markdown tables, **left-aligned**
 
 ```markdown
 | Markdown            | Simple | Table  |
@@ -433,17 +433,17 @@ url 超連結的路徑為要顯示的圖片，
 | $1                  | $1     | $1     |
 ```
 
-由於表格要呈現較複雜的格式，如: 合併儲存格等功能，
-都必須要使用到 Html 的標籤格式，
+Since tables need to present more complex formats, such as merged cells, etc.,
+HTML tag formats must be used.
 
-為了呈現效果而導致原始的文檔變得不易閱讀，
-違背了原本 Markdown 易讀易寫的原則。
+To present effects at the cost of making the original document hard to read,
+which violates the original Markdown principle of being easy to read and write.
 
 ```markdown
 [Table](assets/002/table.csv)
 ```
 
-**若仍有複雜表格格式的需求，建議使用超連結的方式連接其他格式檔案，
-以外部擴展方式涵蓋表格功能。**
+**If complex table formats are still needed, it's recommended to use hyperlinks to connect to other format files,
+covering table functions through external expansion.**
 
-## 參考資料
+## References

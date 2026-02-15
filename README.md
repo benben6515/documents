@@ -21,6 +21,7 @@ Then, let's check out.
   - [Shortcut](#shortcut)
   - [IDE](#ide)
   - [Style](#style)
+  - [Documentation](#documentation)
   - [Comment](#comment)
   - [Naming](#naming)
   - [Preference](#preference)
@@ -32,7 +33,7 @@ Then, let's check out.
 
 ## IDE
 
-- I am currently using: **NeoVim** + **Warp** terminal
+- I am currently using: **NeoVim/LazyVim** + **Warp** terminal
 - Here are my recommendation as a new developer, still you can chose your preferences as well.
 - IDE: [**VScode**](https://code.visualstudio.com/download)
 - VScode plugin:
@@ -44,7 +45,7 @@ Then, let's check out.
   - `Gremlins tracker for Visual Studio Code`
   - `DotENV`
   - `EditorConfig for Visual Studio Code`
-  - `Vim` (Options)
+  - `Vim` (Optional)
 
 [⬆️ Go to Top](#shortcut)
 
@@ -54,9 +55,15 @@ Then, let's check out.
 - Writing
   - Chinese Writing style: [中文排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
   - Markdown style: [Markdown Lint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
-- Coding
+- Coding (Most use JavaScript for Front-End and Back-End)
   - JavaScript style: prefer `standard`
   - [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/)
+
+## Documentation
+
+- [Mac File/Folder Naming Guide](the-note-remembers/000-naming.md) - Best practices for naming files and folders on macOS
+- [Markdown Syntax Reference](the-note-remembers/001-markdown.md) - Complete Markdown syntax guide with examples
+- [Markdown Quick Start](the-note-remembers/002-markdown-tutor.md) - Quick introduction to Markdown for beginners
 
 [⬆️ Go to Top](#shortcut)
 
@@ -110,21 +117,18 @@ class item {
 > Just preference, much depend on projects' needs.
 
 - React/Next (Framework)
-
   - prefer **React hook** + function component over than class component + function component.
   - often use with: Next, Redux, Formik
   - often css with: Tailwind, Styled-component, Emotions
   - often utils with: Vite, react-use
 
 - Vue/Nuxt (Framework)
-
   - prefer **Composition Api** rather than Options Api
   - often use with: Nuxt, Vuex(Pinia), VeeValidate
   - often css with: Tailwind, UnoCSS, SCSS
   - often utils with: Vite, vue-use
 
 - CSS
-
   - prefer **Atomic CSS** like: Tailwind, Windi CSS, UnoCSS ...
   - SCSS/SASS are good as well, but you know naming CSS is a big problem.
 
@@ -156,15 +160,15 @@ For some people curious about courses which I took:
 - Screen: Apple Display (27 inch) + BenQ EW2880u(28 inch)
 - Screen bar: Esense LED 11-PRO100
 - Keyboards:
-  - Keychron Q4
-    - Switch: Cherry MX Speed Silver(Self-Lubricating)
+  - Keychron HHKB
+    - aka, Happy Hacking Keyboard, (\* the best keyboard in the world)
     - Layout: 60%
     - State: Most using
-  - Keychron K9 pro
-    - Switch: Gateron low-profile MX 2.0 Red
-    - Layout: 60%, low-profile
+  - Keychron Q60 Max
+    - Switch: Nanana
+    - Layout: 60%
     - State: When I go out using
-- Mouse: Logitech MX Master 3s
+- Mouse: \* Real hacker don't need mouse
 - Terminal: [Warp](https://app.warp.dev/referral/VLL959)
 - Neovim: [Lazyvim](https://www.lazyvim.org/)
 - Love themes(VScode):
