@@ -33,7 +33,7 @@
 
 ## IDE
 
-- 我目前正在使用：**NeoVim/LazyVim** + **Warp** 終端機
+- 我目前正在使用：**NeoVim/LazyVim** + **Ghostty** 終端機
 - 以下是我作為新開發者的推薦，當然你也可以選擇自己的偏好。
 - IDE：[**VScode**](https://code.visualstudio.com/download)
 - VScode 插件：
@@ -56,8 +56,7 @@
   - 中文寫作風格：[中文排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
   - Markdown 風格：[Markdown Lint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
 - 程式碼（前端和後端主要使用 JavaScript）
-  - JavaScript 風格：偏好 `standard`
-  - [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/)
+  - Lint：偏好 ESLint 搭配 [@antfu/eslint-config](https://github.com/antfu/eslint-config)（flat config）
 
 ## 文件參考
 
@@ -117,25 +116,26 @@ class item {
 > 只是偏好，很大程度上取決於專案需求。
 
 - React/Next (框架)
-  - 偏好 **React hook** + 函式元件勝過類別元件 + 函式元件
-  - 經常搭配使用：Next, Redux, Formik
-  - 經常使用的 CSS：Tailwind, Styled-component, Emotions
-  - 經常使用的工具：Vite, react-use
+  - 偏好函式元件 + hooks 勝過類別元件
+  - 經常搭配使用：Next, Zustand, React Hook Form
+  - 經常使用的 CSS：Tailwind, UnoCSS, SCSS
+  - 經常使用的工具：Vite
 
 - Vue/Nuxt (框架)
   - 偏好 **Composition Api** 而非 Options Api
-  - 經常搭配使用：Nuxt, Vuex(Pinia), VeeValidate
+  - 經常搭配使用：Nuxt, Pinia, VeeValidate
   - 經常使用的 CSS：Tailwind, UnoCSS, SCSS
   - 經常使用的工具：Vite, vue-use
 
 - CSS
-  - 偏好 **Atomic CSS** 例如：Tailwind, Windi CSS, UnoCSS ...
+  - 偏好 **Atomic CSS** 例如：Tailwind, UnoCSS ...
   - SCSS/SASS 也不錯，但你知道命名 CSS 是個大問題
 
 - 工具
   - 經常使用：`axios`, `lodash`, `tailwind`
+  - HTTP client：`axios`，或更輕量的 `fetch` / `ky` / `ofetch`
   - 套件管理：偏好 **pnpm > yarn > npm**
-  - 打包工具：偏好 **vite > parcel > webpack**
+  - 打包工具：偏好 **vite > webpack**
   - TypeScript 也許，取決於開發時機
   - 測試也許，取決於開發時機但偏好 Vitest
   - 一個元件大約 300 ~ 500 行，依賴 CSS 或類似的東西
@@ -156,8 +156,8 @@ class item {
 
 > 我寫程式時正在使用的東西
 
-- Laptop: Apple macbook pro M2 14 / 10 cores CPU / 16 cores GPU / 512G / 32G
-- Screen: Apple Display (27 inch) + BenQ EW2880u(28 inch)
+- Laptop: MacBook Pro M2 14 (32G) / MacBook Air M4 13 (16G)
+- Screen: BenQ EW2880u (28 inch) + Xiaomi Mini LED G Pro 27Qi (27 inch)
 - Screen bar: Esense LED 11-PRO100
 - Keyboards:
   - Keychron HHKB
@@ -169,7 +169,7 @@ class item {
     - Layout: 60%
     - State: When I go out using
 - Mouse: \* 真正的駭客不需要滑鼠
-- Terminal: [Warp](https://app.warp.dev/referral/VLL959)
+- Terminal: [Ghostty](https://ghostty.org)
 - Neovim: [Lazyvim](https://www.lazyvim.org/)
 - Love themes(VScode):
   1. [ever frost](https://github.com/sainnhe/everforest)

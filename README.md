@@ -33,8 +33,8 @@ Then, let's check out.
 
 ## IDE
 
-- I am currently using: **NeoVim/LazyVim** + **Warp** terminal
-- Here are my recommendation as a new developer, still you can chose your preferences as well.
+- I am currently using: **NeoVim/LazyVim** + **Ghostty** terminal
+- Here are my recommendation as a new developer, still you can choose your preferences as well.
 - IDE: [**VScode**](https://code.visualstudio.com/download)
 - VScode plugin:
   - `TODO tree`
@@ -56,8 +56,7 @@ Then, let's check out.
   - Chinese Writing style: [中文排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
   - Markdown style: [Markdown Lint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
 - Coding (Most use JavaScript for Front-End and Back-End)
-  - JavaScript style: prefer `standard`
-  - [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://standardjs.com/)
+  - Lint: prefer ESLint with [@antfu/eslint-config](https://github.com/antfu/eslint-config) (flat config)
 
 ## Documentation
 
@@ -69,7 +68,7 @@ Then, let's check out.
 
 ## Comment
 
-- Describable comment
+- Descriptive comments
   - `TODO:` the part of code to do in the future
   - `FIXME:` the part of code to fix in the future
   - `REF:` reference documents, resources
@@ -117,25 +116,26 @@ class item {
 > Just preference, much depend on projects' needs.
 
 - React/Next (Framework)
-  - prefer **React hook** + function component over than class component + function component.
-  - often use with: Next, Redux, Formik
-  - often css with: Tailwind, Styled-component, Emotions
-  - often utils with: Vite, react-use
+  - prefer function components with hooks over class components.
+  - often use with: Next, Zustand, React Hook Form
+  - often css with: Tailwind, UnoCSS, SCSS
+  - often utils with: Vite
 
 - Vue/Nuxt (Framework)
   - prefer **Composition Api** rather than Options Api
-  - often use with: Nuxt, Vuex(Pinia), VeeValidate
+  - often use with: Nuxt, Pinia, VeeValidate
   - often css with: Tailwind, UnoCSS, SCSS
   - often utils with: Vite, vue-use
 
 - CSS
-  - prefer **Atomic CSS** like: Tailwind, Windi CSS, UnoCSS ...
+  - prefer **Atomic CSS** like: Tailwind, UnoCSS ...
   - SCSS/SASS are good as well, but you know naming CSS is a big problem.
 
 - Utils
   - often use: `axios`, `lodash`, `tailwind`
+  - http client: `axios`, or lighter options like `fetch` / `ky` / `ofetch`
   - package manage: prefer **pnpm > yarn > npm**
-  - bundle tools: prefer **vite > parcel > webpack**
+  - bundle tools: prefer **vite > webpack**
   - TypeScript maybe, depend on development timing.
   - Testing maybe, depend on development timing but prefer Vitest.
   - A component is about 300 ~ 500 lines, rely on CSS or some things like that.
@@ -154,10 +154,10 @@ For some people curious about courses which I took:
 
 ## In use
 
-> Somethings that I am in use when I am coding.
+> Things I use when I am coding.
 
-- Laptop: Apple macbook pro M2 14 / 10 cores CPU / 16 cores GPU / 512G / 32G
-- Screen: Apple Display (27 inch) + BenQ EW2880u(28 inch)
+- Laptop: MacBook Pro M2 14 (32G) / MacBook Air M4 13 (16G)
+- Screen: BenQ EW2880u (28 inch) + Xiaomi Mini LED G Pro 27Qi (27 inch)
 - Screen bar: Esense LED 11-PRO100
 - Keyboards:
   - Keychron HHKB
@@ -169,7 +169,7 @@ For some people curious about courses which I took:
     - Layout: 60%
     - State: When I go out using
 - Mouse: \* Real hacker don't need mouse
-- Terminal: [Warp](https://app.warp.dev/referral/VLL959)
+- Terminal: [Ghostty](https://ghostty.org)
 - Neovim: [Lazyvim](https://www.lazyvim.org/)
 - Love themes(VScode):
   1. [ever frost](https://github.com/sainnhe/everforest)
