@@ -19,9 +19,10 @@
 
 - [文件](#文件)
   - [快速導航](#快速導航)
-  - [IDE](#ide)
+  - [IDE/AI](#ideai)
   - [風格](#風格)
   - [文件參考](#文件參考)
+  - [延伸閱讀](#延伸閱讀)
   - [註解](#註解)
   - [命名](#命名)
   - [偏好](#偏好)
@@ -31,7 +32,7 @@
 
 [⬆️ 返回頂部](#快速導航)
 
-## IDE
+## IDE/AI
 
 - 我目前正在使用：**NeoVim/LazyVim** + **Ghostty** 終端機
 - 以下是我作為新開發者的推薦，當然你也可以選擇自己的偏好。
@@ -46,6 +47,10 @@
   - `DotENV`
   - `EditorConfig for Visual Studio Code`
   - `Vim`（選項）
+- AI coding agent（開源）：
+  - [OpenCode](https://opencode.ai/go?ref=6BZSWWJVY7) - 開源終端機 AI coding agent
+  - [Pi](https://github.com/earendil-works/pi) - 極簡、可擴充的 agent harness
+  - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Nous Research 的自我進化 agent
 
 [⬆️ 返回頂部](#快速導航)
 
@@ -63,6 +68,23 @@
 - [Mac 檔案/資料夾命名指南](the-note-remembers/000-naming.tw.md) - macOS 上檔案和資料夾命名的最佳實踐
 - [Markdown 語法參考](the-note-remembers/001-markdown.tw.md) - 完整的 Markdown 語法指南與範例
 - [Markdown 快速入門](the-note-remembers/002-markdown-tutor.tw.md) - Markdown 初學者快速入門指南
+
+[⬆️ 返回頂部](#快速導航)
+
+## 延伸閱讀
+
+> 值得一讀的外部指南。
+
+- 溝通
+  - [提問的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) - 繁中譯本
+  - [如何有效地報告錯誤](https://www.chiark.greenend.org.uk/~sgtatham/bugs-tw.html) - Simon Tatham
+- 規範
+  - [語意化版本 SemVer](https://semver.org/lang/zh-TW/)
+  - [Conventional Commits](https://www.conventionalcommits.org/)（無繁中版，連英文）
+- Git
+  - [Pro Git（繁體中文）](https://git-scm.com/book/zh-tw)
+- AI
+  - [深入理解 AI Agent](https://bojieli.github.io/ai-agent-book/astro/zh-TW/) - 李博杰開源書，10 章
 
 [⬆️ 返回頂部](#快速導航)
 

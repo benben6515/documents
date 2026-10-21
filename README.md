@@ -19,9 +19,10 @@ Then, let's check out.
 
 - [Documents](#documents)
   - [Shortcut](#shortcut)
-  - [IDE](#ide)
+  - [IDE/AI](#ideai)
   - [Style](#style)
   - [Documentation](#documentation)
+  - [Reading](#reading)
   - [Comment](#comment)
   - [Naming](#naming)
   - [Preference](#preference)
@@ -31,7 +32,7 @@ Then, let's check out.
 
 [⬆️ Go to Top](#shortcut)
 
-## IDE
+## IDE/AI
 
 - I am currently using: **NeoVim/LazyVim** + **Ghostty** terminal
 - Here are my recommendation as a new developer, still you can choose your preferences as well.
@@ -46,6 +47,10 @@ Then, let's check out.
   - `DotENV`
   - `EditorConfig for Visual Studio Code`
   - `Vim` (Optional)
+- AI coding agents (open-source):
+  - [OpenCode](https://opencode.ai/go?ref=6BZSWWJVY7) - open-source AI coding agent for the terminal
+  - [Pi](https://github.com/earendil-works/pi) - minimal, extensible agent harness
+  - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - self-improving agent by Nous Research
 
 [⬆️ Go to Top](#shortcut)
 
@@ -63,6 +68,23 @@ Then, let's check out.
 - [Mac File/Folder Naming Guide](the-note-remembers/000-naming.md) - Best practices for naming files and folders on macOS
 - [Markdown Syntax Reference](the-note-remembers/001-markdown.md) - Complete Markdown syntax guide with examples
 - [Markdown Quick Start](the-note-remembers/002-markdown-tutor.md) - Quick introduction to Markdown for beginners
+
+[⬆️ Go to Top](#shortcut)
+
+## Reading
+
+> External guides worth reading.
+
+- Communication
+  - [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html) - Eric S. Raymond's classic
+  - [How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html) - Simon Tatham
+- Specs
+  - [Semantic Versioning](https://semver.org/)
+  - [Conventional Commits](https://www.conventionalcommits.org/)
+- Git
+  - [Pro Git](https://git-scm.com/book/en)
+- AI
+  - [AI Agents in Depth](https://bojieli.github.io/ai-agent-book/astro/en/) - Open-source book by Bojie Li, 10 chapters
 
 [⬆️ Go to Top](#shortcut)
 
